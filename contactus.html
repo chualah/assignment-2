@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style>
+			body, html {
+				height: 100%;
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+				background-color: black;
+			}
+			.hero-image {
+				background-image: url("Contact Us.png");
+				height: 50%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+			}
+
+			.hero-text {
+				text-align: center;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a href="index.html">HOME</a>
+				<a href="about.html">ABOUT</a>
+				<a href="packages.html">PACKAGES</a>
+				<a href="classschedule.html">CLASS SCHEDULE</a>
+				<a href="instructors.html">INSTRUCTORS</a>
+				<a href="contactus.html">CONTACT US</a>
+		</div>
+		<div class="hero-image">
+			<div id="main">
+				<button class="openbtn" onclick="openNav()">☰</button>
+			</div>
+
+			<div class="hero-text">
+				<h1 class="neonText" style="font-family: Spartan; text-align: center;">
+					  CONTACT US
+				</h1>
+			</div>
+		</div>
+
+		
+		<br>
+		<br>
+		<br>
+		
+		<p style="color: white; font-size: 28px; font-family: Spartan; text-align: center">REACH OUT TO US</p>
+		<p style="color: white; font-size: 16px; font-family: Spartan; text-align: center">
+		Got a question? Not to worry! 
+		<br>
+		<br>
+		Simply email us at <a href="mailto:contact@revolution.com.sg" style="text-decoration: none">contact@revolution.com.sg</a> 
+		</p>
+		
+		<br>
+		<br>
+		
+		<p style="color: white; font-size: 28px; font-family: Spartan; text-align: center">COLLAB WITH US</p>
+		<p style="color: white; font-size: 16px; font-family: Spartan; text-align: center">
+		For business and collaboration enquiries, do contact us at
+		<br>
+		<br>
+		<a href="mailto:marketing@revolution.com.sg" style="text-decoration: none">marketing@revolution.com.sg</a> 
+		</p>
+		
+		<br>
+		<br>
+		
+		<p style="color: white; font-size: 28px; font-family: Spartan; text-align: center">PARTNER US</p>
+		<p style="color: white; font-size: 16px; font-family: Spartan; text-align: center">
+		Here at Revolution, we’re always looking for opportunities to expand our community! 
+		<br>
+		<br>
+		If you’re interested in partnering with us, 
+		<br>
+		<br>
+		do feel free to drop us an email at 
+		<a href="mailto:hello@revolution.com.sg" style="text-decoration: none">hello@revolution.com.sg</a> 
+		<br>
+		<br>
+		We’ll do our best to reply in 3 working days!
+		</p>
+
+		<br>
+		<br>
+		
+		<p style="text-align: center">
+			<a href="https://www.linkedin.com/company/revolutionsingapore/" class="fa fa-linkedin"></a>
+			<a href="https://www.youtube.com/channel/UCxJGGm0O3Cr-0eDbb_g7QYQ" class="fa fa-youtube"></a>
+			<a href="https://www.instagram.com/revolution.sg/?hl=en" class="fa fa-instagram"></a>
+		</p>
+
+		
+		<script>
+		function openNav() {
+		  document.getElementById("mySidebar").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidebar").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+		</script>
+	</body>
+</html>

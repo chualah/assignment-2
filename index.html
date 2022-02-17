@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style>
+			body,html{
+				height: 100%;
+				margin: 0;
+			}
+			
+			.bg{
+				background-image: url("Revolution.jpg");
+				height: 100%;
+				backgound-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="bg">
+			<div id="mySidebar" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+					<a href="index.html">HOME</a>
+					<a href="about.html">ABOUT</a>
+					<a href="packages.html">PACKAGES</a>
+					<a href="classschedule.html">CLASS SCHEDULE</a>
+					<a href="instructors.html">INSTRUCTORS</a>
+					<a href="contactus.html">CONTACT US</a>
+			</div>
+			
+			<div id="main">
+				<button class="openbtn" onclick="openNav()">☰</button>
+				<h1 style = "font-family: Spartan; color: white; text-align: center";>REVOLUTION</h1>
+			</div>
+				
+
+			<script>
+			function openNav() {
+			  document.getElementById("mySidebar").style.width = "250px";
+			  document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+			  document.getElementById("mySidebar").style.width = "0";
+			  document.getElementById("main").style.marginLeft= "0";
+			}
+			</script>
+			
+			<div class="bottommid">
+				<a href="https://www.linkedin.com/company/revolutionsingapore/" class="fa fa-linkedin"></a>
+				<a href="https://www.youtube.com/channel/UCxJGGm0O3Cr-0eDbb_g7QYQ" class="fa fa-youtube"></a>
+				<a href="https://www.instagram.com/revolution.sg/?hl=en" class="fa fa-instagram"></a>
+			</div>
+		</div>
+	</body>
+</html>
